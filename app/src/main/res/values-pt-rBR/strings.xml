@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">APS</string>
+
+    <string name="navigation_drawer_open">Abrir Drawer Navigation</string>
+    <string name="navigation_drawer_close">Fechar Drawer Navigation</string>
+
+    <string name="action_settings">Configurações</string>
+    <string name="title_activity_maps">Mapas</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_map">Mapa</string>
+    <string name="nav_chat">Bate-Papo</string>
+    <string name="nav_settings">Configurações</string>
+    <string name="nav_information">Informações</string>
+    <string name="nav_exit">Sair</string>
+    <string name="tools">Ferramentas</string>
+
+    <string name="hello_blank_fragment">Olá fragmento em branco</string>
+    <string name="title_activity_settings">Configurações</string>
+
+    <!-- Strings relacionadas com ApsSettingsFragment -->
+
+    <!-- Exemplo de configurações gerais -->
+    <string name="pref_header_general">Geral</string>
+
+    <string name="pref_title_social_recommendations">Ativar recomendações sociais</string>
+    <string name="pref_description_social_recommendations">Recomendações para entrar em contato
+        com as pessoas com base no seu histórico de mensagens
+    </string>
+
+    <string name="pref_title_display_name">Mostrar o nome</string>
+    <string name="pref_default_display_name">Seu Nome</string>
+
+    <string name="pref_title_add_friends_to_messages">Adicionar amigos para enviar mensagens</string>
+    <string-array name="pref_example_list_titles">
+        <item>Sempre</item>
+        <item>Quando possivel</item>
+        <item>Nunca</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Configurações de exemplo para sincronização de dados -->
+    <string name="pref_header_data_sync">Sincronização &amp; Dados</string>
+
+    <string name="pref_title_sync_frequency">Freqüência da sincronização</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutos</item>
+        <item>30 minutos</item>
+        <item>1 hora</item>
+        <item>3 horas</item>
+        <item>6 horas</item>
+        <item>Nunca</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">Configurações de sincronização do sistema</string>
+
+    <!-- Configurações de exemplo para Notificações -->
+    <string name="pref_header_notifications">Notificações</string>
+
+    <string name="pref_title_new_message_notifications">Notificações de novas mensagens</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silencioso</string>
+
+    <string name="pref_title_vibrate">Vibrar</string>
+    <string name="str_conversations">Conversas</string>
+    <string name="str_contacts">Contatos</string>
+    <string name="title_activity_login">Login</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">E-Mail</string>
+    <string name="prompt_phone">Número do telefone</string>
+    <string name="action_sign_in">Login ou registre-se</string>
+    <string name="action_sign_in_short">Login</string>
+    <string name="error_invalid_email">Endereço de e-mail inválido</string>
+    <string name="error_invalid_phone">Número de telefone inválido</string>
+    <string name="error_field_required">Campo obrigatório</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="my_location">Minha localização</string>
+    <string name="error_server">Erro no servidor: </string>
+    <string name="shared_location">Localização compartilhada com sucesso!</string>
+    <string name="msg_flooding_notification">Notificação de alagamento na sua região.</string>
+</resources>
